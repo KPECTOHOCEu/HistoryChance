@@ -1,24 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&family=Workbench&display=swap');
 
 #left_header {
-	border: 0.4vw solid black;
+	border: 0.4vh solid black;
 	background-color: #772ce8;
-	width: 7.5vh;
-	height: 7.5vh;
+	width: 3.5%;
+	height: 3.5vw;
 	margin-bottom: 2vh;
 	float: left;
 	z-index: 2;
+	display: block;
 }
 
 #header {
- border: 0.4vw solid black;
+ border: 0.4vh solid black;
  	border-left: none;
-	width: 91.3vw;
-	height: 7.5vh;
+	width: 95.3%;
+	height: 3.5vw;
 	background-color: #772ce8;
 	margin-bottom: 2vh;
 	float: left;
 	z-index: 3;
+	display: block;
 }
 
 #main {
@@ -29,6 +31,7 @@
 	margin-bottom: 3vh;
 	float: left;
 	z-index: 1;
+	display: block;
 }
 
 
